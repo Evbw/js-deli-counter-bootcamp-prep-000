@@ -19,7 +19,7 @@ function currentLine(line) {
  var deliLine = []
  
   for (var i = 0, l = deliLine.length; i < l; i++ ) {
-    deliLine.push(`${i + 1}. ${line[i]}`)
+    deliLine.push(`${i + 1}. ${deliLine[i]}`)
     
   if (deliLine.length > 0) {
     return `The line is currently: ${deliLline[i]},`
