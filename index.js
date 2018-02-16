@@ -27,6 +27,6 @@ var deliLine = []
     deliLine.push(`${i + 1}. ${line[i]}`)
     
   }
-    return `The line is currently: ${deliLine[i]},`
+    return `The line is currently: ${deliLine[]},`
     
 }
