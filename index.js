@@ -16,8 +16,9 @@ function nowServing(line, name) {
 }
 
 function currentLine(line) {
+  for (var i = 0, l = deliArray.length; i < l; i++ ) {
   if (line.length > 0) {
-    return `The line is currently: ${line[]}. ${line.name},`
+    return `The line is currently: ${line[i]}. ${line.name},`
   }
     else {
       return "The line is currently empty."
