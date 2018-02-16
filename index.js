@@ -22,7 +22,7 @@ function currentLine(line) {
     deliLine.push(`${i + 1}. ${deliLine[i]}`)
     
   if (deliLine.length > 0) {
-    return `The line is currently: ${deliLline[i]},`
+    return `The line is currently: ${deliLline},`
   }
   
     else {
