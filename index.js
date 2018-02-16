@@ -2,7 +2,7 @@ var katzDeli = []
 
 
 
-function takeANumber(katzDeliLine) {
-  var array
+function takeANumber(array) {
+  var otherArray
   
 }
