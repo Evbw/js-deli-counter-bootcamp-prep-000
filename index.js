@@ -20,7 +20,7 @@ var deliLine = []
 
   for (var i = 0, l = line.length; i < l; i++ ) {
     
-    deliLine.push(`${i + 1}. ${deliLine[i]}`)
+    deliLine.push(`${i + 1}. ${line[i]}`)
     
   if (deliLine.length > 0) {
     return `The line is currently: ${deliLline},`
