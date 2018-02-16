@@ -17,7 +17,7 @@ function nowServing(line, name) {
 
 function currentLine(line) {
   var deliArray = []
-  for (var i = 0, l = deliArray.length; i < l; i++ ) {
+  for (let i = 0, l = deliArray.length; i < l; i++ ) {
     
   if (line.length > 0) {
     return `The line is currently: ${line[i]}. ${line.name},`
