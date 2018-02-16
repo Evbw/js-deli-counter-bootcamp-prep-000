@@ -23,7 +23,7 @@ var deliLine = []
     deliLine.push(`${i + 1}. ${line[i]}`)
     
   if (deliLine.length > 0) {
-    return `The line is currently: ${deliLine},`
+    return `The line is currently: ${deliLine[i]},`
     
   }
   
