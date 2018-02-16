@@ -16,7 +16,7 @@ function nowServing(line, name) {
 }
 
 function currentLine(line) {
-  deliArray = []
+  var deliArray = []
   for (var i = 0, l = deliArray.length; i < l; i++ ) {
     
   if (line.length > 0) {
