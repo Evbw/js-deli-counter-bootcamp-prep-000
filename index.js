@@ -24,7 +24,7 @@ var deliLine = []
 
   for (let i = 0, l = line.length; i < l; i++ ) {
     
-    deliLine.push(`${i + 1}. ${line[i]}`)
+    deliLine.push(`${i + 1}.` + " " + `${line[i]}`)
     
   }
     return `The line is currently: ${deliLine}`
