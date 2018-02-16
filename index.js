@@ -16,8 +16,9 @@ function nowServing(line, name) {
 }
 
 function currentLine(line) {
+var deliLine = []
 
-  for (var i = 0, l = lLine.length; i < l; i++ ) {
+  for (var i = 0, l = line.length; i < l; i++ ) {
     
     deliLine.push(`${i + 1}. ${deliLine[i]}`)
     
