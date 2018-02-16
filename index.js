@@ -7,6 +7,10 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line, name) {
-  if (line)
-  
+  if (line.length > 0) {
+    return line.shift
+  }
+    else {
+      return
+    }
 }
