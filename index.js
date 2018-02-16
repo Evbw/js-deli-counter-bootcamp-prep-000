@@ -1,7 +1,7 @@
 var katzDeli = []
 
-function takeANumber(array) {
+function takeANumber(katzDeliLine) {
   for (let i = 0; i < 10; i++) {
-    array.push(`${array[i]}`)
+    array.push(`${katzDeliLine[i]}`)
   }
 }
