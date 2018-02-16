@@ -21,7 +21,7 @@ function currentLine(line) {
   for (var i = 0, l = deliLine.length; i < l; i++ ) {
     
   if (line.length > 0) {
-    return `The line is currently: ${deliline[i]}. ${line.name},`
+    return `The line is currently: ${deliline[i]},`
   }
   
     else {
